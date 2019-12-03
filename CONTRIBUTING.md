@@ -29,13 +29,13 @@ We recommend using additional git remote's for pushing/pulling code. Go cares ab
 To pull our source code run:
 
 ```
-$ go get github.com//ourly//ach
+$ go get github.com/ourly/ach
 ```
 
 Then, add your (or another user's) fork.
 
 ```
-$ cd $GOPATH/src/github.com//ourly//ach
+$ cd $GOPATH/src/github.com/ourly/ach
 
 $ git remote add $user git@github.com:$user/ach.git
 
@@ -58,7 +58,7 @@ A good quality PR will have the following characteristics:
 
 A good PR should be able to flow through a peer review system easily and quickly.
 
-Our Build pipeline utilizes [Travis-CI](https://travis-ci.org//ourly//ach) to enforce many tools that you should add to your editor before issuing a pull request. Learn more about these tools on our [Go Report card](https://goreportcard.com/report/github.com//ourly//ach)
+Our Build pipeline utilizes [Travis-CI](https://travis-ci.org/ourly/ach) to enforce many tools that you should add to your editor before issuing a pull request. Learn more about these tools on our [Go Report card](https://goreportcard.com/report/github.com/ourly/ach)
 
 
 ## Additional SEC (Standard Entry Class) code batch types.
@@ -148,7 +148,7 @@ In order for the code to be merged with a Pull requests we require a `batchMTE_t
 
 ## Command Line tools
 
-We have written two command line tools ([`readACH`](github.com//ourly//ach/cmd/readACH) and [`writeACH`](github.com//ourly//ach/cmd/writeACH)) that work with ACH files.
+We have written two command line tools ([`readACH`](github.com/ourly/ach/cmd/readACH) and [`writeACH`](github.com/ourly/ach/cmd/writeACH)) that work with ACH files.
 
 #### readACH
 
@@ -197,7 +197,7 @@ $ go test ./cmd/readACH -bench=BenchmarkTestFileRead -count=10000 > BenchmarkTes
 * [Thomson Reuters ACH FIle Structure](http://cs.thomsonreuters.com/ua/acct_pr/acs/cs_us_en/pr/dd/ach_file_structure_and_content.htm)
 * [Gusto: How ACH Works: A developer perspective](http://engineering.gusto.com/how-ach-works-a-developer-perspective-part-4/)
 
-![ACH File Layout](https://github.com//ourly//ach/blob/master/documentation/ach_file_structure_shg.gif)
+![ACH File Layout](https://github.com/ourly/ach/blob/master/documentation/ach_file_structure_shg.gif)
 
 ## Inspiration
 

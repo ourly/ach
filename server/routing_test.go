@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com//ourly//ach"
+	"github.com/ourly/ach"
 	"net/http"
 	"net/http/httptest"
 	"strings"

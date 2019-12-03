@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // batch should never be used directly.

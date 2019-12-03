@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockIATBatchHeaderFF creates a IAT BatchHeader that is Fixed-Fixed

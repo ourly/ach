@@ -1,4 +1,4 @@
-module github.com //ourly//ach
+module github.com/ourly/ach
 
 require (
 	github.com/VividCortex/gohistogram v1.0.0 // indirect

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockADVFileControl create a file control

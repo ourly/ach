@@ -19,7 +19,7 @@ package main
 
 import (
 	"fmt"
-	"github.com//ourly//ach"
+	"github.com/ourly/ach"
 	"log"
 	"os"
 )

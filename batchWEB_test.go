@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockBatchWEBHeader creates a WEB batch header

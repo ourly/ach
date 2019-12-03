@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com//ourly//ach"
-	"github.com//ourly//base"
+	"github.com/ourly/ach"
+	"github.com/ourly/base"
 
 	"github.com/go-kit/kit/log"
 )

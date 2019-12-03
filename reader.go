@@ -22,7 +22,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockEntryDetail creates an entry detail

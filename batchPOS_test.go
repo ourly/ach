@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockBatchPOSHeader creates a BatchPOS BatchHeader

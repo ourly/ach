@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockBatchMTEHeader creates a MTE batch header

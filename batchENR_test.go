@@ -21,7 +21,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockBatchENRHeader creates a ENR batch header

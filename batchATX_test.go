@@ -21,7 +21,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockBatchATXHeader creates a BatchATX BatchHeader

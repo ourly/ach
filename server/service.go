@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com//ourly//ach"
-	"github.com//ourly//base"
+	"github.com/ourly/ach"
+	"github.com/ourly/base"
 )
 
 var (

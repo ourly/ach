@@ -19,7 +19,7 @@ package examples
 
 import (
 	"fmt"
-	"github.com//ourly//ach"
+	"github.com/ourly/ach"
 	"log"
 	"os"
 	"path/filepath"

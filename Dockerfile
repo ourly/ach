@@ -1,5 +1,5 @@
 FROM golang:1.13-alpine as builder
-WORKDIR /go/src/github.com//ourly//ach
+WORKDIR /go/src/github.com/ourly/ach
 RUN apk add -U make
 RUN adduser -D -g '' --shell /bin/false moov
 COPY . .
@@ -8,7 +8,7 @@ USER moov
 
 FROM scratch
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
-COPY --from=builder /go/src/github.com//ourly//ach/bin/server /bin/server
+COPY --from=builder /go/src/github.com/ourly/ach/bin/server /bin/server
 COPY --from=builder /etc/passwd /etc/passwd
 USER moov
 EXPOSE 8080

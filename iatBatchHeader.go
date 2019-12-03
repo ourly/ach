@@ -23,8 +23,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com//ourly//ach/internal/iso3166"
-	"github.com//ourly//ach/internal/iso4217"
+	"github.com/ourly/ach/internal/iso3166"
+	"github.com/ourly/ach/internal/iso4217"
 )
 
 // msgServiceClass

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // mockBatchADVHeader creates a ADV batch header

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com//ourly//base"
+	"github.com/ourly/base"
 )
 
 // testPPDWrite writes a PPD ACH file
