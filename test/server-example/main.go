@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/$(OURLY)/ach/server"
+	"github.com/ourly/ach/server"
 
 	"github.com/go-kit/kit/log"
 )

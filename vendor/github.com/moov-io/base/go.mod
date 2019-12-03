@@ -1,1 +1,1 @@
-module github.com/$(OURLY)/base
+module github.com/ourly/base

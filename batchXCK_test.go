@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com/ourly/base"
 )
 
 // mockBatchXCKHeader creates a BatchXCK BatchHeader

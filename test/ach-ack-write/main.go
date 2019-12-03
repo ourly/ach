@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/$(OURLY)/ach"
+	"github.com/ourly/ach"
 )
 
 func main() {

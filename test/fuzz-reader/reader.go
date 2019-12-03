@@ -20,7 +20,7 @@ package fuzzreader
 import (
 	"bytes"
 
-	"github.com/$(OURLY)/ach"
+	"github.com/ourly/ach"
 )
 
 // Return codes (from go-fuzz docs)

@@ -58,7 +58,7 @@ func InternalError(w http.ResponseWriter, err error) string {
 		}
 
 		// f.Function can either be an absolute path (/Users/...) or a package
-		// (i.e. github.com/$(OURLY)/...) so check for either.
+		// (i.e. github.com/ourly/...) so check for either.
 		if strings.Contains(f.Function, "github.com/moov-io") || strings.HasPrefix(f.Function, "main.") {
 			_, file, line, _ = runtime.Caller(i) // next caller
 		}

@@ -2,7 +2,7 @@ package examples
 
 import (
 	"fmt"
-	"github.com/$(OURLY)/ach"
+	"github.com/ourly/ach"
 	"log"
 )
 

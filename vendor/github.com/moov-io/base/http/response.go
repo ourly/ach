@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/$(OURLY)/base/idempotent"
+	"github.com/ourly/base/idempotent"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/metrics"

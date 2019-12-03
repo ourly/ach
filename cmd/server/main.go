@@ -28,10 +28,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/$(OURLY)/ach"
-	"github.com/$(OURLY)/ach/server"
-	"github.com/$(OURLY)/base/admin"
-	"github.com/$(OURLY)/base/http/bind"
+	"github.com//ourly//ach"
+	"github.com//ourly//ach/server"
+	"github.com//ourly//base/admin"
+	"github.com//ourly//base/http/bind"
 
 	"github.com/go-kit/kit/log"
 )

@@ -18,7 +18,7 @@
 package server
 
 import (
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 	"io/ioutil"
 	"log"
 	"os"
@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/$(OURLY)/ach"
+	"github.com//ourly//ach"
 )
 
 // test mocks are in mock_test.go

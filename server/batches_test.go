@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/$(OURLY)/ach"
+	"github.com//ourly//ach"
 
 	"github.com/go-kit/kit/log"
 )

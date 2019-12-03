@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/$(OURLY)/ach"
+	"github.com/ourly/ach"
 )
 
 // Example_ppdReadDebit reads a PPD debit file
