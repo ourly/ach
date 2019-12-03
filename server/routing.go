@@ -108,7 +108,7 @@ func MakeHTTPHandler(s Service, repo Repository, logger log.Logger) http.Handler
 	r.Methods("GET").Path("/ping").HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		moovhttp.SetAccessControlAllowHeaders(w, r.Header.Get("Origin"))
 		w.Header().Set("Content-Type", "text/plain")
-		w.Write([]byte("PONG"))
+		w.Write([]byte("WALLIT PONG"))
 	})
 	r.Methods("GET").Path("/files").Handler(httptransport.NewServer(
 		getFilesEndpoint(s),

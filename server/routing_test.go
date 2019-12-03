@@ -67,7 +67,7 @@ func TestRouting_ping(t *testing.T) {
 	if w.Code != http.StatusOK {
 		t.Errorf("bogus HTTP status: %d", w.Code)
 	}
-	if v := w.Body.String(); v != "PONG" {
+	if v := w.Body.String(); v != "WALLIT PONG" {
 		t.Errorf("body: %s", v)
 	}
 	if v := w.Result().Header.Get("Access-Control-Allow-Origin"); v != "https://moov.io" {
