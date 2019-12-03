@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com/ourly/base"
 )
 
 // mockAddenda18 creates a mock Addenda18 record

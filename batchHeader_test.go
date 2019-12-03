@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // mockBatchHeader creates a batch header

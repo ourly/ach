@@ -21,7 +21,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com/ourly/base"
 )
 
 // mockBatchCTXHeader creates a BatchCTX BatchHeader

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // mockFileHeader build a validate File Header for tests
@@ -70,7 +70,7 @@ func BenchmarkMockFileHeader(b *testing.B) {
 }
 
 func TestFileHeader__ImmediateOrigin(t *testing.T) {
-	// From https://github.com/$(OURLY)/ach/issues/510
+	// From https://github.com//ourly//ach/issues/510
 	// We should allow a blank space or '1' followed by a 9 digit routing number and 9 digits
 	header := NewFileHeader()
 	header.ImmediateOrigin = " 123456789" // ' ' + routing number
