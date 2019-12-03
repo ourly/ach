@@ -22,6 +22,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"os"
 	"io"
 	"net/http"
 	"strconv"
@@ -109,6 +110,10 @@ func MakeHTTPHandler(s Service, repo Repository, logger log.Logger) http.Handler
 		moovhttp.SetAccessControlAllowHeaders(w, r.Header.Get("Origin"))
 		w.Header().Set("Content-Type", "text/plain")
 		w.Write([]byte("WALLIT PONG"))
+	})
+	r.Methods("GET").Path("/crash").HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		fmt.Printf("CRASHING ON REQUEST")
+	    os.Exit(1)
 	})
 	r.Methods("GET").Path("/files").Handler(httptransport.NewServer(
 		getFilesEndpoint(s),
