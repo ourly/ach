@@ -3,116 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="239416d1-831f-43e2-a97d-b0245771980b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/NOTICE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addenda10_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/addenda10_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addenda11_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/addenda11_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addenda16_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/addenda16_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addenda17_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/addenda17_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advFileControl_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/advFileControl_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batchBOC_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/batchBOC_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batchRCK_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/batchRCK_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batchSHR.go" beforeDir="false" afterPath="$PROJECT_DIR$/batchSHR.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batchXCK_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/batchXCK_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/batch_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/readACH/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/readACH/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/writeACH/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/writeACH/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entryDetail_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/entryDetail_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ackRead_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ackRead_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ackWrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ackWrite_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_advWrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_advWrite_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_arcRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_arcRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_arcWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_arcWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_atxRead_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_atxRead_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_atxWrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_atxWrite_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_bocRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_bocRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_bocWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_bocWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ccdRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ccdRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ccdWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ccdWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_corRead_credit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_corRead_credit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_corWrite_credit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_corWrite_credit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ctxRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ctxRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_dneRead_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_dneRead_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_enrRead_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_enrRead_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_enrWrite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_enrWrite_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_iatRead_mixedCreditDebit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_iatRead_mixedCreditDebit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_iatWrite_mixedCreditDebit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_iatWrite_mixedCreditDebit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_mteWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_mteWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_popRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_popRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_popWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_popWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_posRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_posRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_posWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_posWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ppdRead_credit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ppdRead_credit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ppdRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ppdRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ppdRead_segmentFile_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ppdRead_segmentFile_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ppdWrite_credit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ppdWrite_credit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ppdWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ppdWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_ppdWrite_segmentFile_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_ppdWrite_segmentFile_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_rckRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_rckRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_rckWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_rckWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_server_fileCreateTextPlain_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_server_fileCreateTextPlain_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_shrRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_shrRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_shrWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_shrWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_telRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_telRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_trcRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_trcRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_trxRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_trxRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_trxWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_trxWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_xckRead_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_xckRead_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example_xckWrite_debit_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example_xckWrite_debit_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/mock.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/mock.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/batches.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/batches.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/batches_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/batches_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/files.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/files.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/files_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/files_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/mock_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/mock_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/repository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/repository_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routing.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/routing.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/routing_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/service_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/service_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/issue403_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/issue403_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-ack-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-ack-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-ack-write/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-ack-write/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-adv-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-adv-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-arc-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-arc-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-atx-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-atx-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-boc-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-boc-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-ccd-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-ccd-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-cie-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-cie-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-cor-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-cor-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-dne-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-dne-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-enr-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-enr-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-iat-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-iat-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-mte-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-mte-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-pop-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-pop-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-pos-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-pos-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-ppd-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-ppd-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-shr-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-shr-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-tel-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-tel-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-trc-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-trc-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-trc-write/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-trc-write/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-trx-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-trx-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-trx-write/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-trx-write/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-web-write/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-web-write/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-xck-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-xck-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ach-xck-write/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/ach-xck-write/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fuzz-reader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/fuzz-reader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fuzz-reader/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/test/fuzz-reader/makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fuzz-reader/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/fuzz-reader/reader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/same-day-ach-ppd-read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/same-day-ach-ppd-read/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/server-example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/server-example/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/simple-file-creation/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/simple-file-creation/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/moov-io/base/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/moov-io/base/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/moov-io/base/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/moov-io/base/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/moov-io/base/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/moov-io/base/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/moov-io/base/http/bind/bind.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/moov-io/base/http/bind/bind.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/moov-io/base/http/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/moov-io/base/http/response.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/moov-io/base/http/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/moov-io/base/http/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileHeader.go" beforeDir="false" afterPath="$PROJECT_DIR$/fileHeader.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575378365501</updated>
-      <workItem from="1575378366627" duration="467000" />
+      <workItem from="1575378366627" duration="838000" />
     </task>
     <servers />
   </component>

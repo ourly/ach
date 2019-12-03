@@ -22,7 +22,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/$(OURLY)/base"
+	"github.com/ourly/base"
 )
 
 // FileHeader is a Record designating physical file characteristics and identify
