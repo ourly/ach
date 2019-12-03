@@ -21,7 +21,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchACKHeader creates a ACK batch header

@@ -21,7 +21,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchCTXHeader creates a BatchCTX BatchHeader

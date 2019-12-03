@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 // Example_corWriteCredit writes a COR file

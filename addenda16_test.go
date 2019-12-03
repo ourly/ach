@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockAddenda16 creates a mock Addenda16 record

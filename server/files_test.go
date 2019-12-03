@@ -30,8 +30,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moov-io/ach"
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/ach"
+	"github.com/$(OURLY)/base"
 
 	"github.com/go-kit/kit/log"
 	httptransport "github.com/go-kit/kit/transport/http"

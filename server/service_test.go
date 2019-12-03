@@ -18,7 +18,7 @@
 package server
 
 import (
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 	"io/ioutil"
 	"log"
 	"os"
@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 // test mocks are in mock_test.go

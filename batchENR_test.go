@@ -21,7 +21,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchENRHeader creates a ENR batch header

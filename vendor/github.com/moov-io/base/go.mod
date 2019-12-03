@@ -1,1 +1,1 @@
-module github.com/moov-io/base
+module github.com/$(OURLY)/base

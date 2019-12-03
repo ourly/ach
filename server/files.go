@@ -28,9 +28,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/moov-io/ach"
-	"github.com/moov-io/base"
-	moovhttp "github.com/moov-io/base/http"
+	"github.com/$(OURLY)/ach"
+	"github.com/$(OURLY)/base"
+	moovhttp "github.com/$(OURLY)/base/http"
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/log"

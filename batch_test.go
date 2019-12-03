@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // batch should never be used directly.

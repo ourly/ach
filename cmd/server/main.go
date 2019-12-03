@@ -28,10 +28,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/moov-io/ach"
-	"github.com/moov-io/ach/server"
-	"github.com/moov-io/base/admin"
-	"github.com/moov-io/base/http/bind"
+	"github.com/$(OURLY)/ach"
+	"github.com/$(OURLY)/ach/server"
+	"github.com/$(OURLY)/base/admin"
+	"github.com/$(OURLY)/base/http/bind"
 
 	"github.com/go-kit/kit/log"
 )

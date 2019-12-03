@@ -30,7 +30,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 // TestServer__CreateFileEndpoint creates JSON from existing ACH Files and submits them to our

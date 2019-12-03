@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/moov-io/base/idempotent"
+	"github.com/$(OURLY)/base/idempotent"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/metrics"

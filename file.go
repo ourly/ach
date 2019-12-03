@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // First position of all Record Types. These codes are uniquely assigned to

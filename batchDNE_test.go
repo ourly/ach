@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchDNEHeader creates a DNE batch header

@@ -9,7 +9,7 @@ import (
     "fmt"
     "os"
 
-    "github.com/moov-io/base/admin"
+    "github.com/$(OURLY)/base/admin"
 
     "github.com/go-kit/kit/log"
 )

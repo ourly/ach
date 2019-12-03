@@ -1,14 +1,15 @@
 PLATFORM=$(shell uname -s | tr '[:upper:]' '[:lower:]')
 VERSION := $(shell grep -Eo '(v[0-9]+[\.][0-9]+[\.][0-9]+([-a-zA-Z0-9]*)?)' version.go)
+GITHUBUSER = 'ourly'
 
 .PHONY: build generate docker release
 
 build:
 	go fmt ./...
 	@mkdir -p ./bin/
-	go build github.com/moov-io/ach
-	go build -o bin/examples-http github.com/moov-io/ach/examples/http
-	CGO_ENABLED=0 go build -o ./bin/server github.com/moov-io/ach/cmd/server
+	go build github.com/$(GITHUBUSER)/ach
+	go build -o bin/examples-http github.com/$(GITHUBUSER)/ach/examples/http
+	CGO_ENABLED=0 go build -o ./bin/server github.com/$(GITHUBUSER)/ach/cmd/server
 
 generate: clean
 	@go run internal/iso3166/iso3166_gen.go
@@ -20,9 +21,9 @@ clean:
 
 dist: clean generate build
 ifeq ($(OS),Windows_NT)
-	CGO_ENABLED=1 GOOS=windows go build -o bin/ach-windows-amd64.exe github.com/moov-io/ach/cmd/server
+	CGO_ENABLED=1 GOOS=windows go build -o bin/ach-windows-amd64.exe github.com/$(GITHUBUSER)/ach/cmd/server
 else
-	CGO_ENABLED=1 GOOS=$(PLATFORM) go build -o bin/ach-$(PLATFORM)-amd64 github.com/moov-io/ach/cmd/server
+	CGO_ENABLED=1 GOOS=$(PLATFORM) go build -o bin/ach-$(PLATFORM)-amd64 github.com/$(GITHUBUSER)/ach/cmd/server
 endif
 
 docker: clean

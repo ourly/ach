@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchXCKHeader creates a BatchXCK BatchHeader

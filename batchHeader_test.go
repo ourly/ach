@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchHeader creates a batch header

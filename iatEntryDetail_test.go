@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockIATEntryDetail creates an IAT EntryDetail

@@ -20,7 +20,7 @@ package ach
 import (
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchCCDHeader creates a CCD batch header

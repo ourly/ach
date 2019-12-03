@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 
 	"github.com/go-kit/kit/log"
 )

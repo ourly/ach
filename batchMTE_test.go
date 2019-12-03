@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchMTEHeader creates a MTE batch header

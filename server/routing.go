@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"strings"
 
-	moovhttp "github.com/moov-io/base/http"
+	moovhttp "github.com/$(OURLY)/base/http"
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/log"
@@ -36,7 +36,7 @@ import (
 )
 
 var (
-	bugReportHelp = "please report this as a bug -- https://github.com/moov-io/ach/issues/new"
+	bugReportHelp = "please report this as a bug -- https://github.com/$(OURLY)/ach/issues/new"
 
 	// ErrBadRouting is returned when an expected path variable is missing, which is always programmer error.
 	ErrBadRouting = fmt.Errorf("inconsistent mapping between route and handler, %s", bugReportHelp)

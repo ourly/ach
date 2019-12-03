@@ -5,7 +5,7 @@
 // Package bind returns well known HTTP local bind addresses for Moov services.
 // The package is intended for services to use for discovery during local development.
 //
-// This package also returns admin ports, useable with the github.com/moov-io/base/admin
+// This package also returns admin ports, useable with the github.com/$(OURLY)/base/admin
 // package.
 package bind
 

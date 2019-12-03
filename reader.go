@@ -22,7 +22,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 var (

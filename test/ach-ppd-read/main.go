@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 func main() {

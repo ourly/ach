@@ -25,7 +25,7 @@ import (
 	"os"
 	"runtime/pprof"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 var (

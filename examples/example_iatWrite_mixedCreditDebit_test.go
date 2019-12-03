@@ -22,7 +22,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 // Example_iatWriteMixedCreditDebit writes a IAT mixed debit and credit file

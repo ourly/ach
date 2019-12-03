@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 func readACHFilepath(path string) (*File, error) {

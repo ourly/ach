@@ -19,7 +19,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 	"log"
 	"os"
 )

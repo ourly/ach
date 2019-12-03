@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockADVEntryDetail creates a ADV entry detail

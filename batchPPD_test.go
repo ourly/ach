@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockBatchPPDHeader creates a PPD batch header

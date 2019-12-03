@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/base"
+	"github.com/$(OURLY)/base"
 )
 
 // mockFilePPD creates an ACH file with PPD batch and entry

@@ -20,7 +20,7 @@ package server
 import (
 	"time"
 
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 func mockServiceInMemory() Service {

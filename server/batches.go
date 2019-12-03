@@ -23,8 +23,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/moov-io/ach"
-	moovhttp "github.com/moov-io/base/http"
+	"github.com/$(OURLY)/ach"
+	moovhttp "github.com/$(OURLY)/base/http"
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/log"

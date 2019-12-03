@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moov-io/ach/server"
+	"github.com/$(OURLY)/ach/server"
 
 	"github.com/go-kit/kit/log"
 )

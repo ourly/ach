@@ -5,7 +5,7 @@
 package examples
 
 import (
-	"github.com/moov-io/ach"
+	"github.com/$(OURLY)/ach"
 )
 
 func mockFileHeader() ach.FileHeader {
