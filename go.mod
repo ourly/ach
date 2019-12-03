@@ -5,7 +5,7 @@ require (
 	github.com/go-kit/kit v0.9.0
 	github.com/gorilla/mux v1.7.3
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
-	github.com/ourly/base v0.50.1
+	github.com/ourly/base 0.50.1
 	github.com/prometheus/client_golang v1.2.1
 	github.com/rickar/cal v1.0.1 // indirect
 )
