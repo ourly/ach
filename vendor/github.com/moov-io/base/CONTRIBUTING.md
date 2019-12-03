@@ -35,13 +35,13 @@ We recommend using additional git remote's for pushing/pulling code. Go cares ab
 To pull our source code run:
 
 ```
-$ go get github.com/$(OURLY)/ach
+$ go get github.com/ourly/ach
 ```
 
 Then, add your (or another user's) fork.
 
 ```
-$ cd $GOPATH/src/github.com/$(OURLY)/ach
+$ cd $GOPATH/src/github.com/ourly/ach
 
 $ git remote add $user git@github.com:$user/ach.git
 
@@ -64,4 +64,4 @@ A good quality PR will have the following characteristics:
 
 A good PR should be able to flow through a peer review system easily and quickly.
 
-Our Build pipeline utilizes [Travis-CI](https://travis-ci.org/$(OURLY)/ach) to enforce many tools that you should add to your editor before issuing a pull request. Learn more about these tools on our [Go Report card](https://goreportcard.com/report/github.com/$(OURLY)/ach)
+Our Build pipeline utilizes [Travis-CI](https://travis-ci.org/ourly/ach) to enforce many tools that you should add to your editor before issuing a pull request. Learn more about these tools on our [Go Report card](https://goreportcard.com/report/github.com/ourly/ach)

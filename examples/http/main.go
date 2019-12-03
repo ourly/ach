@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/$(OURLY)/ach"
+	"github.com/ourly/ach"
 )
 
 var (

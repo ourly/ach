@@ -20,7 +20,7 @@ package examples
 import (
 	"fmt"
 	"github.com/go-kit/kit/log"
-	"github.com/$(OURLY)/ach/server"
+	"github.com/ourly/ach/server"
 	lg "log"
 	"net/http"
 	"net/http/httptest"
