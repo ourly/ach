@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 func readACHFilepath(path string) (*File, error) {

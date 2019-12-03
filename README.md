@@ -1,14 +1,14 @@
 moov-io/ach
 ===
-[![GoDoc](https://godoc.org/github.com/$(OURLY)/ach?status.svg)](https://godoc.org/github.com/$(OURLY)/ach)
-[![Build Status](https://travis-ci.com/$(OURLY)/ach.svg?branch=master)](https://travis-ci.com/$(OURLY)/ach)
-[![Coverage Status](https://codecov.io/gh/$(OURLY)/ach/branch/master/graph/badge.svg)](https://codecov.io/gh/$(OURLY)/ach)
-[![Go Report Card](https://goreportcard.com/badge/github.com/$(OURLY)/ach)](https://goreportcard.com/report/github.com/$(OURLY)/ach)
-[![Apache 2 licensed](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com/$(OURLY)/ach/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com//ourly//ach?status.svg)](https://godoc.org/github.com//ourly//ach)
+[![Build Status](https://travis-ci.com//ourly//ach.svg?branch=master)](https://travis-ci.com//ourly//ach)
+[![Coverage Status](https://codecov.io/gh//ourly//ach/branch/master/graph/badge.svg)](https://codecov.io/gh//ourly//ach)
+[![Go Report Card](https://goreportcard.com/badge/github.com//ourly//ach)](https://goreportcard.com/report/github.com//ourly//ach)
+[![Apache 2 licensed](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com//ourly//ach/master/LICENSE)
 
-Package `github.com/$(OURLY)/ach` implements a file reader and writer written in Go along with a HTTP API for creating, parsing and validating Automated Clearing House ([ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House)) files. ACH is the primary method of electronic money movement throughout the United States.
+Package `github.com//ourly//ach` implements a file reader and writer written in Go along with a HTTP API for creating, parsing and validating Automated Clearing House ([ACH](https://en.wikipedia.org/wiki/Automated_Clearing_House)) files. ACH is the primary method of electronic money movement throughout the United States.
 
-If you're looking for a complete implementation of ACH origination (file creation), OFAC checks, micro-deposits, SFTP uploading, and other featues the [moov-io/paygate](https://github.com/$(OURLY)/paygate) project aims to be a full system for ACH transfers.
+If you're looking for a complete implementation of ACH origination (file creation), OFAC checks, micro-deposits, SFTP uploading, and other featues the [moov-io/paygate](https://github.com//ourly//paygate) project aims to be a full system for ACH transfers.
 
 Docs: [docs.moov.io](https://docs.moov.io/ach/) | [api docs](https://api.moov.io/apps/ach/)
 
@@ -18,11 +18,11 @@ Moov ACH is under active development and in production for multiple companies. P
 
 ## Usage
 
-The ACH project implements a Go library and HTTP server for creating and modifying ACH files. For a complete ACH origination service checkout [moov-io/paygate](https://github.com/$(OURLY)/paygate).
+The ACH project implements a Go library and HTTP server for creating and modifying ACH files. For a complete ACH origination service checkout [moov-io/paygate](https://github.com//ourly//paygate).
 
 ### Go library
 
-`github.com/$(OURLY)/ach` offers a Go based ACH file reader and writer. To get started checkout a specific example:
+`github.com//ourly//ach` offers a Go based ACH file reader and writer. To get started checkout a specific example:
 
 <details>
 <summary>Supported Standard Entry Class (SEC) codes</summary>
@@ -67,11 +67,11 @@ The ACH project implements a Go library and HTTP server for creating and modifyi
 
 ### HTTP API
 
-`github.com/$(OURLY)/ach/server` offers a HTTP and JSON API for creating and editing files. If you're using Go the `ach.File` type can be used, otherwise just send properly formatted JSON. We have an [example JSON file](test/testdata/ppd-valid.json), but each SEC type will generate different JSON.
+`github.com//ourly//ach/server` offers a HTTP and JSON API for creating and editing files. If you're using Go the `ach.File` type can be used, otherwise just send properly formatted JSON. We have an [example JSON file](test/testdata/ppd-valid.json), but each SEC type will generate different JSON.
 
-Examples: [Go](examples/http/main.go) | [Ruby](https://github.com/$(OURLY)/ruby-ach-demo)
+Examples: [Go](examples/http/main.go) | [Ruby](https://github.com//ourly//ruby-ach-demo)
 
-- [Create an ACH file for a payment and get the raw file](https://github.com/$(OURLY)/ruby-ach-demo)
+- [Create an ACH file for a payment and get the raw file](https://github.com//ourly//ruby-ach-demo)
 
 ## Getting Started
 
@@ -102,15 +102,15 @@ $ curl localhost:8080/files
 
 ### From Source
 
-This project uses [Go Modules](https://github.com/golang/go/wiki/Modules) and thus requires Go 1.11+. You can download the source code and we offer [tagged and released versions](https://github.com/$(OURLY)/ach/releases/latest) as well. We highly recommend you use a tagged release for production.
+This project uses [Go Modules](https://github.com/golang/go/wiki/Modules) and thus requires Go 1.11+. You can download the source code and we offer [tagged and released versions](https://github.com//ourly//ach/releases/latest) as well. We highly recommend you use a tagged release for production.
 
 ```
 $ git@github.com:moov-io/ach.git
 
 # Pull down into the Go Module cache
-$ go get -u github.com/$(OURLY)/ach
+$ go get -u github.com//ourly//ach
 
-$ go doc github.com/$(OURLY)/ach BatchHeader
+$ go doc github.com//ourly//ach BatchHeader
 ```
 
 ### Configuration
@@ -137,7 +137,7 @@ If you have ACH specific questions NACHA (National Automated Clearing House Asso
  Google Group [moov-users](https://groups.google.com/forum/#!forum/moov-users)| The Moov users Google group is for contributors other people contributing to the Moov project. You can join them without a google account by sending an email to [moov-users+subscribe@googlegroups.com](mailto:moov-users+subscribe@googlegroups.com). After receiving the join-request message, you can simply reply to that to confirm the subscription.
 Twitter [@moov_io](https://twitter.com/moov_io)	| You can follow Moov.IO's Twitter feed to get updates on our project(s). You can also tweet us questions or just share blogs or stories.
 [GitHub Issue](https://github.com/moov-io) | If you are able to reproduce an problem please open a GitHub Issue under the specific project that caused the error.
-[moov-io slack](http://moov-io.slack.com/) | Join our slack channel to have an interactive discussion about the development of the project. [Request an invite to the slack channel](https://join.slack.com/t/$(OURLY)/shared_invite/enQtNDE5NzIwNTYxODEwLTZhMmVjYzRjMWZiNmQxYTA0OTJlMzNlMTk0YTBlZDY0ZTg5NDMzM2Y0NDViMTZmMzVmNjRmZWI1MGQ4NjE4YWM)
+[moov-io slack](http://moov-io.slack.com/) | Join our slack channel to have an interactive discussion about the development of the project. [Request an invite to the slack channel](https://join.slack.com/t//ourly//shared_invite/enQtNDE5NzIwNTYxODEwLTZhMmVjYzRjMWZiNmQxYTA0OTJlMzNlMTk0YTBlZDY0ZTg5NDMzM2Y0NDViMTZmMzVmNjRmZWI1MGQ4NjE4YWM)
 
 ## Supported and Tested Platforms
 

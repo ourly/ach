@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // mockBatchDNEHeader creates a DNE batch header

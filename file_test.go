@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // mockFilePPD creates an ACH file with PPD batch and entry

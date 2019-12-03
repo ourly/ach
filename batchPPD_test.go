@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // mockBatchPPDHeader creates a PPD batch header

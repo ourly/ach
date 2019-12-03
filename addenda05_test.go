@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 func mockAddenda05() *Addenda05 {

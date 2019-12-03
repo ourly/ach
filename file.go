@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // First position of all Record Types. These codes are uniquely assigned to

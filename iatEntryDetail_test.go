@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/$(OURLY)/base"
+	"github.com//ourly//base"
 )
 
 // mockIATEntryDetail creates an IAT EntryDetail

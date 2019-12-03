@@ -18,7 +18,7 @@
 package ach
 
 import (
-	"github.com/$(OURLY)/ach/internal/usabbrev"
+	"github.com//ourly//ach/internal/usabbrev"
 )
 
 // BatchPOS holds the BatchHeader and BatchControl and all EntryDetail for POS Entries.
